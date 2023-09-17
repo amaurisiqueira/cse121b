@@ -34,7 +34,7 @@ let myFavoriteFood = ['Pasta','Pizza','Lasagna','Steak'];
     
 foodElement.innerHTML += `${myFavoriteFood}`;
 
-    let anotherFavoriteFood=['Salad'];
+    let anotherFavoriteFood='Salad';
     myFavoriteFood.push(anotherFavoriteFood);
 
  foodElement.innerHTML += `<br>${myFavoriteFood}`;
