@@ -59,7 +59,8 @@ const onDividend =() => {
 
     const dividend = Number(document.querySelector('#dividend').value);
     const divisor = Number (document.querySelector('#divisor').value);
-    document.querySelector('#quotient').value=  myDivide(dividend,divisor);
+    document.getElementById('quotient').value =   myDivide(dividend,divisor);
+    console.log( myDivide(dividend,divisor));
  
 }
 document.querySelector('#divideNumbers').addEventListener('click',onDividend);
