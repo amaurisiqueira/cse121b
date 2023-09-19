@@ -1,9 +1,14 @@
 /* LESSON 3 - Programming Tasks */
-
+//var currentYear = new Date().getFullYear();
+/*
+document.querySelector('#year').textContent= currentYear;
+console.log(`after currentYea:${currentYear}`);
+*/
+console.log(`currentYea:${currentYear}`);
 /* FUNCTIONS */
 /* Function Definition - Add Numbers */
 const numbers =[1,2,3,4,5,6,7,8,9,10,11,12,13];
-
+ 
 const add= (number1,number2) =>{
       return number1+number2;
 }
@@ -66,9 +71,6 @@ const onDividend =() => {
 document.querySelector('#divideNumbers').addEventListener('click',onDividend);
 
 /* Decision Structure */
-const currentYear=new Date().getFullYear();
-document.querySelector('#year').value= currentYear;
-console.log(`currentYear:${currentYear}`);
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */

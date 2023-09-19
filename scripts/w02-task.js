@@ -4,7 +4,7 @@
 
 /* Step 2 - Variables */
 let fullName ="Amauri Siqueira";
-let currentYear = new Date().getFullYear();
+//let currentYear = new Date().getFullYear();
 
 let profilePicture ="images/photo.jpg";
 /* Step 3 - Element Variables */
