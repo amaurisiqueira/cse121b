@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies for the Weekend</title>
+    <script src="./scripts/project.js" type="module"></script>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <!-- 
+    "Películas para el fin de semana",
+     pretendo crear un sitio web utilizando HTML5, CSS, JavaScript y Fetch.
+     
+     En este sitio web, los usuarios podrán buscar información de películas 
+     según el 
+                género y el
+                 año de lanzamiento 
+                 utilizando una API de películas que proporciona información en formato JSON, incluidos géneros de películas, imágenes de portada, títulos y descripciones.
+
+  -->
+  <body>
+    <main id="mainmovie">
+      <div id="containerselector">
+        <div id="movietitle">
+          <h1>Movies for the Weekend</h1>
+        </div>
+
+        <div id="movieselector">
+          <select id="moviecategory" title="Choose a movie genre.">
+            <option value="" disabled selected>Select a genre</option>
+          </select>
+        </div>
+      </div>
+      <div id="containermovie">
+        <div id="movies"></div>
+      </div>
+    </main>
+  </body>
+</html>

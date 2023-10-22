@@ -1,0 +1,1 @@
+export var moviesDiv = document.querySelector("#movies");
