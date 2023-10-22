@@ -24,8 +24,8 @@ async function getGenres() {
         myJSON.results.map((data, index) => {
           if (index > 0) {
             const newOption = document.createElement("option");
-            newOption.value = data; // "newoption"; // Establece el valor de la nueva opción
-            newOption.text = data; //  "New Option";   // Establece el texto de la nueva opción
+            newOption.value = data;  
+            newOption.text = data;  
 
             mySelect.appendChild(newOption);
           }
