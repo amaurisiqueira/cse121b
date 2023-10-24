@@ -10,11 +10,12 @@ export default async function getMovies(genre) {
       "X-RapidAPI-Host": "moviesdatabase.p.rapidapi.com",
     },
   };
-  console.log("b");
+  
+  // console.log("b");
   try {
     const response = await fetch(url, options);
     if (response.ok) {
-      console.log("response:" + response);
+     // console.log("response:" + response);
       const myJSON = await response.json();
 
       //console.log("myJSON: " + JSON.stringify(myJSON));

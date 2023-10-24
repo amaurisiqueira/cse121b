@@ -31,7 +31,7 @@ async function getGenres() {
           }
         });
       } else {
-        console.log("myJSON no es un array.");
+        console.log("No JSON array.");
       }
     }
   } catch (error) {

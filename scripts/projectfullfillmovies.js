@@ -8,7 +8,7 @@ const deleteMovies = () => {
 };
 
 const getArticle = (_movieTitle, _moveYear, _moviePhoto) => {
-  console.log("_moviePhoto:" + _moviePhoto);
+  console.log(`_moviePhoto:${_moviePhoto}` );
 
   /*
     if( _moviePhoto !==  'none'){
